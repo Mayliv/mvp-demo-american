@@ -2,9 +2,5 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "mvp-demo-american",
   "compatibility_date": "2025-09-24",
-  "compatibility_flags": ["nodejs_compat"],
-  "main": ".wrangler/tmp/build/cloudflare/node/server/index.js",
-  "assets": {
-    "directory": ".wrangler/tmp/build/cloudflare/client"
-  }
+  "compatibility_flags": ["nodejs_compat"]
 }
